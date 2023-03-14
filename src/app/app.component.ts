@@ -14,7 +14,7 @@ export class AppComponent {
   view: viewerType = "google";
   width = "100%";
   height = "93vh";
-  url = "/assets/readme.doc";
+  url = "https://github.com/biswasray/doc-viewer/blob/gh-pages/assets/readme.doc?raw=true";
   style: string | undefined;
   constructor(private route: ActivatedRoute) {
   }
